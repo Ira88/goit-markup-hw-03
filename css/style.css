@@ -19,6 +19,15 @@
   *::before, *::after{
     box-sizing: border-box;
   }
+  .conteiner{
+    width: 1230px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid tomato;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
   
   /* Головний розділ перед заголовком */
   .previous title{
@@ -54,7 +63,12 @@
     padding: 10px 32px;
     text-align: center;
     border: 1px solid transparent;
+    width: 1230px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
+  
 /* Заголовок */
 
 .header-titel{
@@ -65,7 +79,12 @@
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #000000;
+  text-decoration: none;
 
+}
+.header-nav{
+  display: flex;
+  align-items: center;
 }
 .accent{
   font-family: 'Raleway', sans-serif;
@@ -118,9 +137,19 @@ color: #212121;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--secondary-text-color);
+    text-decoration: none;
   }
+
  
   /* Розділ героя */
+  .hero{
+    text-align: center;
+width: 1230px;
+padding: 15px;
+margin-left: auto;
+margin-right: auto;
+background-color: #000000;
+  }
 
 .hero-title{
   font-family: 'Roboto', sans-serif;
@@ -130,12 +159,9 @@ font-size: 44px;
 line-height: 60px;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-border: 1px solid #000000;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 margin-top: 0;
 margin-bottom: 30px;
-outline: 2px solid tomato;
-text-align: center;
+
 }
 .hero-btn{
 font-family: 'Roboto', sans-serif;
@@ -146,10 +172,11 @@ color: #FFFFFF;
 color:  var(--primary-text-color);
 border-radius: 4px;
 padding: 10px 32px;
-display: inline-block;
+display: flex;
 min-width: 73px;
 text-align: center;
-border: 1px solid transparent;
+border:none
+
 }
 
 .link-current-hero{
