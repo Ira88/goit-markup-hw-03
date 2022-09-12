@@ -25,7 +25,7 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    
+    outline: 2px solid tomato;
   }
   /* .container.big-container {
   max-width: 1600px;
@@ -234,6 +234,7 @@ margin-left: auto;
 margin-right: auto;
 background-color: #000000;
   }
+  
 
 .hero-title{
   font-family: 'Roboto', sans-serif;
@@ -246,7 +247,10 @@ color: #FFFFFF;
 max-width: 696px;
 text-align: center;
 margin: auto;
+margin-bottom: 30px;
 }
+
+
 .hero-btn{
 font-size: 16px;
 letter-spacing: 0.06em;
@@ -258,21 +262,52 @@ height: 50px;
 padding: 10px 32px;
 display: flex;
 text-align: center;
-
+margin-top: 30px;
 }
 
 .link-current-hero{
   color: #212121;
 text-decoration: none;
+width: 216px;
+height: 50px;
   }
+
 .link-current-hero:hover, .link-current-hero:focus{
   color: #FFFFFF;
   background: #2196F3;
   }  
+
+  .port-btn{
+    color:  var(--primary-text-color);
+  border-radius: 4px;
+  padding-bottom: 94px;
+  width: 130;
+  padding: 86px 26px;
+  }
+  .port-list{
+    display: flex;
+  column-gap: 8px;
+  }
+  .link-current-port{
+    color: #212121;
+  text-decoration: none;
+  width: 216px;
+  height: 50px;
+    }
+  .link-current-port:hover, .link-current-port:focus{
+    color: #FFFFFF;
+    background: #2196F3;
   
-  /* Розділ про */
-.about{
+  /* Розділ чим ми  */
+
+.about-conteiner{
+  display: block;
+ padding-top: 97px;
+}
+.about-list{
+  display: flex;
   text-align: center;
+  
 }
 .about-title, .comand-title{
   font-family: 'Roboto', sans-serif;
@@ -302,13 +337,7 @@ text-decoration: none;
     color: #212121;
   }
 
-  .port-btn{
-    color:  var(--primary-text-color);
-border-radius: 4px;
-padding-bottom: 94px;
-width: 130;
-padding: 86px 26px;
-  }
+ 
   .comand-item-text{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
