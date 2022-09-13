@@ -39,14 +39,16 @@
     margin: 0;
   }
   .ul{
-    padding-left: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
   }
   .list{
     list-style: none;
     margin: 0;
     padding: 0;
   }
-  main img {
+  .img {
     display: block;
     width: 100%;
   }
@@ -279,35 +281,38 @@ height: 50px;
 
   .port-btn{
     color:  var(--primary-text-color);
-  border-radius: 4px;
   padding-bottom: 94px;
-  width: 130;
   padding: 86px 26px;
   }
   .port-list{
     display: flex;
   column-gap: 8px;
+  margin-left: 400px
   }
   .link-current-port{
     color: #212121;
   text-decoration: none;
-  width: 216px;
+   max-width: 130px;
+   min-width: 75px;
   height: 50px;
-    }
+  border-radius: 4px;
+   border:none ;
+   }
   .link-current-port:hover, .link-current-port:focus{
     color: #FFFFFF;
     background: #2196F3;
   
+
+    
   /* Розділ чим ми  */
 
-.about-conteiner{
-  display: block;
- padding-top: 97px;
+.about{
+  display: flex;
 }
-.about-list{
+.about-item{
   display: flex;
   text-align: center;
-  
+  padding-left: 215px;
 }
 .about-title, .comand-title{
   font-family: 'Roboto', sans-serif;
@@ -364,15 +369,31 @@ height: 50px;
     letter-spacing: 0.03em;
     color: #757575;
   }
-  
+  .gallery-item{
+    width: 370px;
+  }
+  .galary-wrapper{
+    padding: 20px 24px;
+    border: 1 solid red;
+    border-top: none;
+  }
+  .gallery-list{
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .gallery-list list{
+    display: flex;
+  }
+
 /* Розділ footer */
-.footer-titel{
-  font-family: 'Raleway', sans-serif;
+.footer-logo{
+  font-family: 'Raleway';
+  font-style: normal;
   font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
 
 }
 
