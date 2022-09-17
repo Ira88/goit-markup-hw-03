@@ -302,23 +302,34 @@ height: 50px;
     
   /* Розділ чим ми  */
 
-.about-list .container{
+.about-item .container{
 width: 1170px;
 height: 98px;
 }
-.container-about{
- padding-top: 97px;
- padding-left: 50px;
+.about{
+padding-top: 97px;
+padding-left: 0px;
+  
+}
+ .about-list{
+  display: flex;
+  column-gap: 30px;
+ }
+.conteiner-wrapper .container{
   width: 270px;
   min-height: 70px;
   max-height: 98px;
-  outline: 2px solid tomato;
 }
-.about-item{
-  display: flex;
-}
-.container-title{
+ .about-title{
   padding-top: 91px;
+  padding-bottom:50px ;
+  text-align: center;
+ }
+
+.desc-wrapper .container{
+  width: 1170px;
+  height: 386px;
+  padding-bottom: 94px;
 }
 
 .about-title, .comand-title{
@@ -348,8 +359,21 @@ height: 98px;
     letter-spacing: 0.03em;
     color: #212121;
   }
+  /* Розділ команда  */
+ .container-comand{
+  width: 1170px;
+  height: 368px;
+ }
+ .comand-title{
+  padding-top: 94px;
+  padding-bottom: 50px;
+  text-align: center;
 
- 
+ }
+ .comand-list{
+  display: flex;
+  column-gap: 30px;
+ }
   .comand-item-text{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
