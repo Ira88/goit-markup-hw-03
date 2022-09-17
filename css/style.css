@@ -360,10 +360,7 @@ padding-left: 0px;
     color: #212121;
   }
   /* Розділ команда  */
- .container-comand{
-  width: 1170px;
-  height: 368px;
- }
+
  .comand-title{
   padding-top: 94px;
   padding-bottom: 50px;
@@ -374,6 +371,13 @@ padding-left: 0px;
   display: flex;
   column-gap: 30px;
  }
+ .container-item{
+  padding-top: 30px;
+  text-align: center;
+ }
+ .comand-item-title{
+padding-bottom: 10px;
+ }
   .comand-item-text{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -382,6 +386,7 @@ padding-left: 0px;
     line-height: 19px;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-bottom: 30px;
   }
   .visually-hidden{
     font-family: 'Roboto', sans-serif;
@@ -417,6 +422,13 @@ padding-left: 0px;
   }
 
 /* Розділ footer */
+
+.footer-container{
+  padding-top: 60px;
+}
+.footer{
+  background-color: #000000;
+}
 .footer-logo{
   font-family: 'Raleway';
   font-style: normal;
@@ -425,10 +437,10 @@ padding-left: 0px;
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #FFFFFF;
-
+  text-decoration: none;
 }
 
-.contacts-address {
+.footer-contacts{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -437,12 +449,9 @@ padding-left: 0px;
   letter-spacing: 0.03em;
   color: #FFFFFF;
   }
-  
-  .contacts-title {
-    color: #FFFFFF;
-   
-  }
-.contacts-item{
+
+
+.footer-item {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
