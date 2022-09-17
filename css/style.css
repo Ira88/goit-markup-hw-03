@@ -361,11 +361,15 @@ padding-left: 0px;
   }
   /* Розділ команда  */
 
+  .comand-container{
+    width: 1170px;
+    height: 368px;
+    padding-bottom: 94px;
+  }
  .comand-title{
   padding-top: 94px;
   padding-bottom: 50px;
   text-align: center;
-
  }
  .comand-list{
   display: flex;
@@ -426,9 +430,14 @@ padding-bottom: 10px;
 .footer-container{
   padding-top: 60px;
 }
-.footer{
-  background-color: #000000;
+.footer-list{
+  padding-top: 20px;
 }
+.footer-contactcs{
+  width: 231px;
+  height: 81px;
+}
+
 .footer-logo{
   font-family: 'Raleway';
   font-style: normal;
@@ -440,7 +449,7 @@ padding-bottom: 10px;
   text-decoration: none;
 }
 
-.footer-contacts{
+.footer-adress{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -461,7 +470,7 @@ padding-bottom: 10px;
   color: #FFFFFF;
 }
 .link-current footer{
-  color: #FFFFFF;
+  color: #fff;
   text-decoration: none;
 }
 .link-current footer:hover,.link-current footer:focus{
