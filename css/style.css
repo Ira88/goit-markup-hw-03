@@ -117,6 +117,7 @@
   column-gap: 93px;
 }
 .flex-container{
+ width: 1200px; 
   column-gap: 93px;
   display: flex;
   align-items: center;
@@ -138,11 +139,12 @@ padding-bottom: 31px;
   
 }
 .header-list{
-  padding: 0;
+  padding-right: 344px;
   margin: 0;
   display: flex;
   align-items: center;
   column-gap: 50px;
+  width: 286px;
 }
 .header-item{
   font-family: 'Roboto';
@@ -167,7 +169,6 @@ color: #212121;
 .link-current {
   color: #212121;
   text-decoration: none;
-  
   }
   .link-current:hover,.link-current:focus{
     color: #2196F3;
@@ -331,6 +332,9 @@ padding-left: 0px;
   padding-bottom:50px ;
   text-align: center;
  }
+ .about-item-item{
+padding-bottom: 94px;
+ }
 
 .desc-wrapper .container{
   width: 1170px;
@@ -368,7 +372,6 @@ padding-left: 0px;
   /* Розділ команда  */
 
   .comand{
-    padding-top: 94px;
     padding-bottom: 94px;
     background-color: #F5F4FA;
   }
@@ -393,6 +396,7 @@ padding-left: 0px;
  .comand-item{
   width: 270px;
   height: 368px;
+  border-radius: 0px 0px 4px 4px;
   border: 1px solid tomato;
  }
  .comand-item-title{
@@ -432,6 +436,7 @@ padding-bottom: 10px;
     padding: 20px 24px;
     border: 1px solid red;
     border-top: none;
+    border-radius: 0px 0px 4px 4px;
   }
   .gallery-list{
     padding-top: 94px;
